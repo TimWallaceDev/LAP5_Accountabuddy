@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { PageProvider } from "./contexts/PageContext.js";
 import Home from "./main.js";
 import PromptPage from "./pages/PromptPage/PromptPage";
@@ -13,22 +13,24 @@ import PairupBoard from "./pages/P5AP_PairupBoard/PairupBoard.jsx";
 
 function App() {
   return (
-    <PageProvider>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/prompt" element={<PromptPage />} />
-        <Route path="/challengePage" element={<ChallengePage />} />
-        <Route path="/challenge/:challengeId" element={<ChallengeDetails />} />
-        <Route path="/PairupBoard/:challengeId" element={<PairupBoard />} />
-        <Route path="/taskPage/:challengeId" element={<P5ChallenegeTaskMainLayout />} />
+    <BrowserRouter basename="/accountapair">
+      <PageProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/prompt" element={<PromptPage />} />
+          <Route path="/challengePage" element={<ChallengePage />} />
+          <Route path="/challenge/:challengeId" element={<ChallengeDetails />} />
+          <Route path="/PairupBoard/:challengeId" element={<PairupBoard />} />
+          <Route path="/taskPage/:challengeId" element={<P5ChallenegeTaskMainLayout />} />
 
 
-        <Route path="/test" element={<BackEndTest />} />
-        <Route path="/Testa" element={<LoadingPage />} />
-        <Route path="/aitest" element={<AiBackendTest />} />
+          <Route path="/test" element={<BackEndTest />} />
+          <Route path="/Testa" element={<LoadingPage />} />
+          <Route path="/aitest" element={<AiBackendTest />} />
 
-      </Routes>
-    </PageProvider>
+        </Routes>
+      </PageProvider>
+    </BrowserRouter>
   );
 }
 

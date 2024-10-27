@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e10de5a.css",
-    "main.js": "/static/js/main.0dcd4f3c.js",
+    "main.css": "/static/css/main.68780979.css",
+    "main.js": "/static/js/main.cb5b8282.js",
     "static/media/ChallengeCardBanner9.png": "/static/media/ChallengeCardBanner9.afd6367cfc0380faa70d.png",
     "static/media/ChallengeCardBanner3.png": "/static/media/ChallengeCardBanner3.b598ac43eed7bbe101b4.png",
     "static/media/ChallengeCardBanner6.png": "/static/media/ChallengeCardBanner6.020fc9a784d29971f12a.png",
@@ -47,11 +47,11 @@
     "static/media/homeIcon.svg": "/static/media/homeIcon.aacd679c2c5908038207eb7e40cf925a.svg",
     "static/media/loadingActiveIcon.svg": "/static/media/loadingActiveIcon.aa34e2d9bf81208c9d8cdd3f53f791e9.svg",
     "static/media/loadingInactiveIcon.svg": "/static/media/loadingInactiveIcon.5b27c95c804a0061b2c52d64341d6af0.svg",
-    "main.2e10de5a.css.map": "/static/css/main.2e10de5a.css.map",
-    "main.0dcd4f3c.js.map": "/static/js/main.0dcd4f3c.js.map"
+    "main.68780979.css.map": "/static/css/main.68780979.css.map",
+    "main.cb5b8282.js.map": "/static/js/main.cb5b8282.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e10de5a.css",
-    "static/js/main.0dcd4f3c.js"
+    "static/css/main.68780979.css",
+    "static/js/main.cb5b8282.js"
   ]
 }
